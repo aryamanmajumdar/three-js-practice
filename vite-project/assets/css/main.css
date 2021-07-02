@@ -1,0 +1,1137 @@
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@font-face {
+    font-family: lm;
+    src: url('/assets/fonts/LEMONMILK-Medium.otf');
+  }
+
+@font-face{
+    font-family: rb;
+    src: url('/assets/fonts/Roboto-Regular.ttf');
+}
+
+.overall{
+    background-image: linear-gradient(to bottom right, #092147, #072B5F);
+    margin: auto;
+    width: 45%;
+    
+}
+
+.overall .header{
+    width: 100%;
+    padding: 10%;
+}
+
+.overall .header .container{
+    width: 100%;
+}
+
+
+
+.header .container .row .col-md-12{
+    text-align: center;
+}
+
+.header .container .row:first-child .col-md-12{
+    padding-bottom: 10%;
+}
+
+.header .container .row .col-md-12 h1{
+    font-family: lm;
+    color: white;
+    font-size: 37px;
+    font-weight: 100;
+}
+
+.header .container .row .col-md-12 p{
+    font-family: rb;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.header .container .row .col-md-12 .header_image{
+    width: 85%;
+    margin: auto;
+    border: 4px solid #fad658;
+    border-radius: 50%;
+    box-shadow: 0 30px 19px 0 rgb(4,23,50,0.6);
+
+    cursor: pointer;
+}
+
+.arrow_section{
+    display: none;
+}
+
+
+section{
+    border-bottom: 1px solid white;
+}
+
+section .container{
+    width: 100%;
+}
+
+.uiux{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    padding-left: 5%;
+    padding-right: 5%;
+
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+.uiux .container .row .col-sm-6 img{
+    width: 100%;
+    margin: auto;
+}
+
+.uiux .container .row .col-sm-6 h2{
+    font-family: rb;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.uiux .container .row .col-sm-6 p{
+    font-family: rb;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 12%;
+}
+
+
+.ai{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    padding-left: 5%;
+    padding-right: 5%;
+
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+.ai .container .row .col-sm-6 img{
+    width: 100%;
+    margin: auto;
+}
+
+.ai .container .row .col-sm-6 h2{
+    font-family: rb;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.ai .container .row .col-sm-6 p{
+    font-family: rb;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 12%;
+}
+
+
+.psych{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    padding-left: 5%;
+    padding-right: 5%;
+
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+.psych .container .row .col-sm-6 img{
+    width: 100%;
+    margin: auto;
+}
+
+.psych .container .row .col-sm-6 h2{
+    font-family: rb;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.psych .container .row .col-sm-6 p{
+    font-family: rb;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 12%;
+}
+
+
+.voice{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    padding-left: 5%;
+    padding-right: 5%;
+
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+.voice .container .row .col-sm-6 img{
+    width: 100%;
+    margin: auto;
+}
+
+.voice .container .row .col-sm-6 h2{
+    font-family: rb;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.voice .container .row .col-sm-6 p{
+    font-family: rb;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 12%;
+}
+
+
+.webdev{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    padding-left: 5%;
+    padding-right: 5%;
+
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+.webdev .container .row .col-sm-6 img{
+    width: 100%;
+    margin: auto;
+}
+
+.webdev .container .row .col-sm-6 h2{
+    font-family: rb;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.webdev .container .row .col-sm-6 p{
+    font-family: rb;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 12%;
+}
+
+
+.writing{
+    margin-top: 5%;
+    margin-bottom: 0;
+
+    padding-left: 5%;
+    padding-right: 5%;
+
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+.writing .container .row .col-sm-6 img{
+    width: 100%;
+    margin: auto;
+}
+
+.writing .container .row .col-sm-6 h2{
+    font-family: rb;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.writing .container .row .col-sm-6 p{
+    font-family: rb;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 12%;
+}
+
+
+section .container .row .col-sm-6 .products-btn .btn{
+    font-family: rb;
+    border-radius: 0px;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    padding: 7px 16px;
+    position: relative;
+    background-color: #ffce1b;
+    -webkit-box-shadow: 0px 28px 22px #070877 !important;
+    box-shadow: 0px 38px 53px #070877 !important
+    
+}
+
+
+/* Responsiveness */
+
+@media only screen and (max-width: 1400px) {
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .overall{
+        background-image: linear-gradient(to bottom right, #092147, #072B5F);
+        margin: auto;
+        width: 80%;
+        
+    }
+    
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+    .overall{
+        background-image: linear-gradient(to bottom right, #092147, #072B5F);
+        margin: auto;
+        width: 80%;
+        
+    }
+
+    section{
+        border-bottom: none;
+    }
+    
+    .arrow_section{
+        border-bottom: 1px solid white;
+        margin-bottom: 0;
+    }
+
+    .arrow_section{
+        display: grid;
+        width: 100%;
+        padding: 10%;
+    }
+    
+    .arrow_section .container{
+        width: 100%;
+    }
+    
+    .arrow_section .container .row .col-md-12{
+        text-align: center;
+    }
+    
+    .arrow_section .container .row:first-child .col-md-12{
+        padding-bottom: 0;
+    }
+    
+    .arrow_section .container .row .col-md-12 .arrow_image{
+        width: 25%;
+        margin: auto;
+        border: 4px solid #fad658;
+        border-radius: 50%;
+        box-shadow: 0 30px 19px 0 rgb(4,23,50,0.6);
+    
+        cursor: pointer;
+    }
+
+
+    .uiux .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .ai .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ai .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .psych .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .voice .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .voice .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .webdev .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .writing .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .writing .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+    
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+
+    .overall{
+        background-image: linear-gradient(to bottom right, #092147, #072B5F);
+        margin: auto;
+        width: 80%;
+        
+    }
+
+    section{
+        border-bottom: none;
+    }
+    
+    .arrow_section{
+        border-bottom: 1px solid white;
+        margin-bottom: 0;
+    }
+
+    .arrow_section{
+        display: grid;
+        width: 100%;
+        padding: 10%;
+    }
+    
+    .arrow_section .container{
+        width: 100%;
+    }
+    
+    .arrow_section .container .row .col-md-12{
+        text-align: center;
+    }
+    
+    .arrow_section .container .row:first-child .col-md-12{
+        padding-bottom: 0;
+    }
+    
+    .arrow_section .container .row .col-md-12 .arrow_image{
+        width: 25%;
+        margin: auto;
+        border: 4px solid #fad658;
+        border-radius: 50%;
+        box-shadow: 0 30px 19px 0 rgb(4,23,50,0.6);
+    
+        cursor: pointer;
+    }
+
+    .uiux .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .ai .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ai .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .psych .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .voice .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .voice .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .webdev .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .writing .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .writing .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+    
+}
+
+@media only screen and (min-width: 450px) and (max-width: 499px) {
+
+    .overall{
+        background-image: linear-gradient(to bottom right, #092147, #072B5F);
+        margin: auto;
+        width: 80%;
+        
+    }
+
+    section{
+        border-bottom: none;
+    }
+    
+    .arrow_section{
+        border-bottom: 1px solid white;
+        margin-bottom: 0;
+    }
+
+    .arrow_section{
+        display: grid;
+        width: 100%;
+        padding: 10%;
+    }
+    
+    .arrow_section .container{
+        width: 100%;
+    }
+    
+    .arrow_section .container .row .col-md-12{
+        text-align: center;
+    }
+    
+    .arrow_section .container .row:first-child .col-md-12{
+        padding-bottom: 0;
+    }
+    
+    .arrow_section .container .row .col-md-12 .arrow_image{
+        width: 25%;
+        margin: auto;
+        border: 4px solid #fad658;
+        border-radius: 50%;
+        box-shadow: 0 30px 19px 0 rgb(4,23,50,0.6);
+    
+        cursor: pointer;
+    }
+
+    .header .container .row .col-md-12 h1{
+        font-family: lm;
+        color: white;
+        font-size: 32px;
+        font-weight: 100;
+    }
+
+    .overall .header .container .row:first-child .col-md-12 p{
+        display: none;
+    }
+
+    .uiux .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .ai .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ai .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .psych .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .voice .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .voice .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .webdev .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .writing .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .writing .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+    
+}
+
+@media only screen and (min-width: 400px) and (max-width: 449px) {
+
+    .overall{
+        background-image: linear-gradient(to bottom right, #092147, #072B5F);
+        margin: auto;
+        width: 100%;
+        
+    }
+
+    section{
+        border-bottom: none;
+    }
+    
+    .arrow_section{
+        border-bottom: 1px solid white;
+        margin-bottom: 0;
+    }
+
+    .arrow_section{
+        display: grid;
+        width: 100%;
+        padding: 10%;
+    }
+    
+    .arrow_section .container{
+        width: 100%;
+    }
+    
+    .arrow_section .container .row .col-md-12{
+        text-align: center;
+    }
+    
+    .arrow_section .container .row:first-child .col-md-12{
+        padding-bottom: 0;
+    }
+    
+    .arrow_section .container .row .col-md-12 .arrow_image{
+        width: 25%;
+        margin: auto;
+        border: 4px solid #fad658;
+        border-radius: 50%;
+        box-shadow: 0 30px 19px 0 rgb(4,23,50,0.6);
+    
+        cursor: pointer;
+    }
+
+    .header .container .row .col-md-12 h1{
+        font-family: lm;
+        color: white;
+        font-size: 28px;
+        font-weight: 100;
+    }
+
+    .overall .header .container .row:first-child .col-md-12 p{
+        display: none;
+    }
+
+    .uiux .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .ai .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ai .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .psych .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .voice .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .voice .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .webdev .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .writing .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .writing .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+    
+}
+
+@media only screen and (min-width: 350px) and (max-width: 399px) {
+
+    .overall{
+        background-image: linear-gradient(to bottom right, #092147, #072B5F);
+        margin: auto;
+        width: 100%;
+        
+    }
+
+    section{
+        border-bottom: none;
+    }
+    
+    .arrow_section{
+        border-bottom: 1px solid white;
+        margin-bottom: 0;
+    }
+
+    .arrow_section{
+        display: grid;
+        width: 100%;
+        padding: 10%;
+    }
+    
+    .arrow_section .container{
+        width: 100%;
+    }
+    
+    .arrow_section .container .row .col-md-12{
+        text-align: center;
+    }
+    
+    .arrow_section .container .row:first-child .col-md-12{
+        padding-bottom: 0;
+    }
+    
+    .arrow_section .container .row .col-md-12 .arrow_image{
+        width: 25%;
+        margin: auto;
+        border: 4px solid #fad658;
+        border-radius: 50%;
+        box-shadow: 0 30px 19px 0 rgb(4,23,50,0.6);
+    
+        cursor: pointer;
+    }
+
+    .header .container .row .col-md-12 h1{
+        font-family: lm;
+        color: white;
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    .overall .header .container .row:first-child .col-md-12 p{
+        display: none;
+    }
+
+    .uiux .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .ai .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ai .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .psych .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .voice .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .voice .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .webdev .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .writing .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .writing .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 349px){
+
+    .overall{
+        background-image: linear-gradient(to bottom right, #092147, #072B5F);
+        margin: auto;
+        width: 100%;
+        
+    }
+
+    section{
+        border-bottom: none;
+    }
+    
+    .arrow_section{
+        border-bottom: 1px solid white;
+        margin-bottom: 0;
+    }
+
+    .arrow_section{
+        display: grid;
+        width: 100%;
+        padding: 10%;
+    }
+    
+    .arrow_section .container{
+        width: 100%;
+    }
+    
+    .arrow_section .container .row .col-md-12{
+        text-align: center;
+    }
+    
+    .arrow_section .container .row:first-child .col-md-12{
+        padding-bottom: 0;
+    }
+    
+    .arrow_section .container .row .col-md-12 .arrow_image{
+        width: 25%;
+        margin: auto;
+        border: 4px solid #fad658;
+        border-radius: 50%;
+        box-shadow: 0 30px 19px 0 rgb(4,23,50,0.6);
+    
+        cursor: pointer;
+    }
+
+    .header .container .row .col-md-12 h1{
+        font-family: lm;
+        color: white;
+        font-size: 28px;
+        font-weight: 100;
+    }
+
+    .overall .header .container .row:first-child .col-md-12 p{
+        display: none;
+    }
+
+    .uiux .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .ai .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ai .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .psych .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .voice .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .voice .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .webdev .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .writing .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .writing .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width: 250px) and (max-width: 319px) {
+
+    .overall{
+        background-image: linear-gradient(to bottom right, #092147, #072B5F);
+        margin: auto;
+        width: 100%;
+        
+    }
+
+    section{
+        border-bottom: none;
+    }
+    
+    .arrow_section{
+        border-bottom: 1px solid white;
+        margin-bottom: 0;
+    }
+
+    .arrow_section{
+        display: grid;
+        width: 100%;
+        padding: 10%;
+    }
+    
+    .arrow_section .container{
+        width: 100%;
+    }
+    
+    .arrow_section .container .row .col-md-12{
+        text-align: center;
+    }
+    
+    .arrow_section .container .row:first-child .col-md-12{
+        padding-bottom: 0;
+    }
+    
+    .arrow_section .container .row .col-md-12 .arrow_image{
+        width: 25%;
+        margin: auto;
+        border: 4px solid #fad658;
+        border-radius: 50%;
+        box-shadow: 0 30px 19px 0 rgb(4,23,50,0.6);
+    
+        cursor: pointer;
+    }
+
+    .header .container .row .col-md-12 h1{
+        font-family: lm;
+        color: white;
+        font-size: 22px;
+        font-weight: 100;
+    }
+
+    .overall .header .container .row:first-child .col-md-12 p{
+        display: none;
+    }
+
+    .uiux .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .ai .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ai .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .psych .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .voice .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .voice .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .webdev .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .writing .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .writing .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+    
+}
+
+@media only screen and (min-width: 200px) and (max-width: 249px) {
+
+    .overall{
+        background-image: linear-gradient(to bottom right, #092147, #072B5F);
+        margin: auto;
+        width: 100%;
+        
+    }
+
+    section{
+        border-bottom: none;
+    }
+    
+    .arrow_section{
+        border-bottom: 1px solid white;
+        margin-bottom: 0;
+    }
+
+    .arrow_section{
+        display: grid;
+        width: 100%;
+        padding: 10%;
+    }
+    
+    .arrow_section .container{
+        width: 100%;
+    }
+    
+    .arrow_section .container .row .col-md-12{
+        text-align: center;
+    }
+    
+    .arrow_section .container .row:first-child .col-md-12{
+        padding-bottom: 0;
+    }
+    
+    .arrow_section .container .row .col-md-12 .arrow_image{
+        width: 25%;
+        margin: auto;
+        border: 4px solid #fad658;
+        border-radius: 50%;
+        box-shadow: 0 30px 19px 0 rgb(4,23,50,0.6);
+    
+        cursor: pointer;
+    }
+
+    .overall .header .container .row:first-child .col-md-12 p{
+        display: none;
+    }
+
+    .uiux .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .ai .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ai .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .psych .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .voice .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .voice .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .webdev .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    .writing .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .writing .container .row .col-sm-6 img{
+        width: 60%;
+        margin: auto;
+    }
+    
+}
